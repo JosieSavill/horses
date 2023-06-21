@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 // import Horse from "./Horse";
-import myVideo  from "../assets/sharemeal.mp4";
+import myVideo  from "../assets/awakening.mp4";
 
 export default function Home({ setScreen }) {
 
@@ -12,7 +12,7 @@ export default function Home({ setScreen }) {
                 <video autoPlay loop muted style={{width: "100%"}}>
                     <source src={myVideo} type="video/mp4" />
                     Your browser does not support the video tag.
-                </video> 
+                </video>
             </div>
            
       
@@ -33,19 +33,7 @@ export default function Home({ setScreen }) {
 
 
 
-// import React from "react";
-// import Nav from "./Nav";
-// import Horse from "./Horse";
 
 
-// export default function Home ({setScreen}){
-
-//     return <div>
-     
-//         <Nav setScreen={setScreen}/>
-//         animated dark horse will go here
-//         <Horse />
-//     </div>
-// }
 
 
