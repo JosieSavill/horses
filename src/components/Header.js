@@ -1,37 +1,38 @@
-// import { useNavigate } from "react-router-dom"
 import React from "react";
-// import myVideo  from "../assets/sharemeal.mp4";
+import Nav from "./Nav";
+// import Horse from "./Horse";
+import myVideo  from "../assets/Awakening.mp4";
 
-export default function Header ({setScreen}){
+export default function Home({ setScreen }) {
 
-
-    return <header className="header">
-         <div className="logo">SHAREMEAL{' '}
-         <span style={{ fontSize: '1.4rem', fontStyle: 'italic', color: "white"}}>
-            recipe wiki</span></div>
-        <nav>
-       
-        <ul>
-            <li><a onClick={()=>setScreen("Home")}>Home</a></li>
-
-            <li><a onClick={()=>setScreen("About")}>Signup</a></li>
-
-            <li><a onClick={()=>setScreen("Resume")}>Login</a></li>
-
-            <li><a onClick={()=>setScreen("Portfolio")}>Comment</a></li>
-
-            <li><a onClick={()=>setScreen("Contact")}>Logout</a></li>
-
-        </ul>
-        </nav>
-                <div className="video-background">
-                {/* <video autoPlay loop muted style={{width: "100%"}}>
+    return (
+        <div className="page-wrapper">
+             <Nav setScreen={setScreen} />
+            <div className="video-background">
+                <video autoPlay loop style={{width: "100%"}}>
                     <source src={myVideo} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-                </div> */}
-        </header>
+            </div>
+           
+      
+        </div>
+    );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

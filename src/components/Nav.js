@@ -6,7 +6,7 @@ export default function Nav ({setScreen}){
     return <header className="header">
          <div className="logo">HORSES{' '}
          <span style={{ fontSize: '1.4rem', fontStyle: 'italic', color: "white"}}>
-            Past, Present, Future</span></div>
+            In America</span></div>
         <nav>
        
         <ul>
@@ -14,11 +14,14 @@ export default function Nav ({setScreen}){
 
             <li><a onClick={()=>setScreen("About")}>About</a></li>
 
-            {/* <li><a onClick={()=>setScreen("Resume")}>Resume</a></li>
+      
 
-            <li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li> */}
+            <li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li>
 
-            <li><a onClick={()=>setScreen("Contact")}>Contact</a></li>
+            <li>
+            
+            <a href="mailto:FiordaSavillJosie@gmail.com">Contact</a>
+            </li>
 
         </ul>
         </nav></header>
