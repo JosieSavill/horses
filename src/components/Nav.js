@@ -16,7 +16,7 @@ export default function Nav ({setScreen}){
 
       
 
-            <li><a onClick={()=>setScreen("Portfolio")}>Portfolio</a></li>
+            <li><a onClick={()=>setScreen("Portfolio")}>American Breeds</a></li>
 
             <li>
             

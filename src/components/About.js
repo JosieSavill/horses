@@ -1,6 +1,6 @@
 import Nav from "./Nav";
 
-import profile from "../assets/profile.jpg";
+// import profile from "../assets/profile.jpg";
 import myVideo  from "../assets/awakening.mp4";
 import Footer from "./Footer";
 // import linkLogo from "../assets/linkedin-logo.png";
@@ -18,9 +18,9 @@ export default function About ({setScreen}){
             </div>
         <aside className="aside-contact">
             
-            <section className="aside-contact-links">
+            {/* <section className="aside-contact-links">
                 <img src={profile} className="profile-pic" alt="JosieSavill img"/>
-            </section>
+            </section> */}
             
             <section id="about" className="aside-about">
                  <div>
@@ -30,21 +30,26 @@ export default function About ({setScreen}){
                     </p>    */}
                     {/* <br></br>   */}
                     <p>
-                        <a href="mailto:FiordaSavillJosie@gmail.com" className="email">FiordaSavillJosie@gmail.com</a> 
+                        Welcome to Horses In America !!{/* <a href="mailto:FiordaSavillJosie@gmail.com" className="email">FiordaSavillJosie@gmail.com</a>  */}
                     </p>
                     <br></br>
 
                     <p>    
-                        My goal is to make information easily accessible and visually appealing.
+                        Our goal is to provide brief insights into the horse breeds originating in America.
                     </p>    
                     <br></br>  
                     <p>    
-                        I enjoy collaboration, as well as researching and creating design solutions.
+                        Horses are the stuff of legends, mythical beings almost, <strong>Equus fers caballus</strong> 
+
+                    </p>
+
+                    <p>    
+                         ... click below to access the greatest horse stories ever written: 
 
                     </p>
                     
                     <p>
-                        <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" className="downloadresume"><h2 className="downloadresume" style={{ fontSize: '20px'}} >Download My Resume</h2></a> <br/>
+                        <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" className="downloadresume"><h2 className="downloadresume" style={{ fontSize: '20px'}} >Equus Portal</h2></a> <br/>
                     </p>
 
                     

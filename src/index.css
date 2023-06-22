@@ -191,7 +191,7 @@ a {
 }
 
 nav a:hover {
-  color: rgb(7, 23, 114);
+  color: rgb(7, 19, 114);
   transition: color 0.2s;
 }
 
