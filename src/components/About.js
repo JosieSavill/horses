@@ -39,7 +39,7 @@ export default function About ({setScreen}){
                     </p>    
                     <br></br>  
                     <p>    
-                        Horses are the stuff of legends, mythical beings almost, <strong>Equus fers caballus</strong> 
+                        Horses are the stuff of legends, <strong>Equus fers caballus</strong> 
 
                     </p>
 
@@ -48,7 +48,7 @@ export default function About ({setScreen}){
 
                     </p>
                     
-                    <p>
+                    <p className="portallink">
                         <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" className="downloadresume"><h2 className="downloadresume" style={{ fontSize: '20px'}} >Equus Portal</h2></a> <br/>
                     </p>
 
