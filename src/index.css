@@ -192,16 +192,66 @@ main {
 a {
   color: aliceblue;
   text-decoration: none;
-  /* transition: color 0.15s; */
-  transition: opacity 0.17s;
-  transition: scale 0.15s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  
+  
 }
 
-nav a:hover {
-  /* color: rgb(9, 21, 114); */
 
-  scale: 1.09;
-  opacity: 0.4;
+
+
+.homelink {
+  display: flex;
+  flex: column;
+  transition: color 1.17s, scale 1.17s;
+}
+
+.homelink:hover{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  
+  scale: 1.11;
+  color: black;
+}
+
+.aboutlink {
+  display: flex;
+  flex: column;
+  transition: color 1.17s, scale 1.17s;
+
+}
+
+.aboutlink:hover{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  
+  scale: 1.11;
+  color: black;
+}
+
+
+.breedslink {
+  display: flex;
+  flex: column;
+  transition: color 1.17s, scale 1.17s;
+}
+
+.breedslink:hover{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  
+  scale: 1.11;
+  color: black;
+}
+
+.contactlink {
+  display: flex;
+  flex: column;
+  transition: color 1.17s, scale 1.17s;
+}
+
+.contactlink:hover{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  
+  scale: 1.11;
+  color: black;
 }
 
 

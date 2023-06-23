@@ -10,15 +10,15 @@ export default function Nav ({setScreen}){
         <nav>
        
         <ul>
-            <li><a onClick={()=>setScreen("Home")}>Home</a></li>
+            <li className="homelink"><a onClick={()=>setScreen("Home")}>Home</a></li>
 
-            <li><a onClick={()=>setScreen("About")}>About</a></li>
+            <li className="aboutlink"><a onClick={()=>setScreen("About")}>About</a></li>
 
       
 
-            <li><a onClick={()=>setScreen("Portfolio")}>Breeds</a></li>
+            <li className="breedslink"><a onClick={()=>setScreen("Portfolio")}>Breeds</a></li>
 
-            <li>
+            <li className="contactlink">
             
             <a href="mailto:FiordaSavillJosie@gmail.com">Contact</a>
             </li>
