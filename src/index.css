@@ -192,12 +192,16 @@ main {
 a {
   color: aliceblue;
   text-decoration: none;
+  /* transition: color 0.15s; */
+  transition: opacity 0.17s;
+  transition: scale 0.15s;
 }
 
 nav a:hover {
-  color: rgb(9, 21, 114);
-  /* transition: 0.2s; */
-  /* scale: 2.0; */
+  /* color: rgb(9, 21, 114); */
+
+  scale: 1.09;
+  opacity: 0.4;
 }
 
 
@@ -335,6 +339,8 @@ p {
   font-size: 20px;
   color: white;
   margin-bottom: 0;
+  margin-left: 42px;
+  transition: scale 0.17s;
 }
 
 .email {
@@ -351,7 +357,7 @@ p {
 .downloadresume:hover {
   /* color:rgb(161, 189, 84); */
   
-  scale: 1.11;
+  scale: 1.17;
 }
 
 .footer {
