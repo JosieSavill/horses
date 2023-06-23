@@ -38,7 +38,10 @@ export default function Portfolio ({setScreen}){
         <div id="horeison" className="work-horeison">
             <a href="https://josiesavill.github.io/horses/">
                 <div>
-                    <h3>American Paint Horse</h3>
+                <h3>American Paint Horse</h3>
+                </div>
+                <div>
+                    
                 <div className="bgBox" style={{backgroundImage: `url(${img6})`}}></div>
                    
                 </div>
@@ -50,6 +53,10 @@ export default function Portfolio ({setScreen}){
             <a href="https://sharemeal.herokuapp.com/">
                 <div>
                     <h3>Appaloosa</h3>
+                    <br></br>
+                </div>
+                <div>
+                    
                     <div className="bgBox" style={{backgroundImage: `url(${img7})`}}></div>
                 </div>
             </a>
@@ -60,16 +67,23 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/space-weather-blog/">
                 <div>
                     <h3>American Quarter Horse</h3>
+                </div>
+                <div>
+                    
                     <div className="bgBox" style={{backgroundImage: `url(${img5})`}}></div>
                 </div>
             </a>
-            <a href="https://github.com/JosieSavill/space-weather-blog" style={{ fontSize: "20px" }}>View Repository</a>
+            {/* <a href="https://github.com/JosieSavill/space-weather-blog" style={{ fontSize: "20px" }}>View Repository</a> */}
         </div>
 
         <div id="horeison" className="work-horeison">
             <a href="https://josiesavill.github.io/beagzcal/">
                 <div>
                     <h3>Morgan Horse</h3>
+                    <br></br>
+                </div>
+                <div>
+                    
                     <div className="bgBox" style={{backgroundImage: `url(${img1})`}}></div>
                 </div>
             </a>
@@ -80,6 +94,9 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/gem/">
                 <div>
                     <h3>American Thoroughbred</h3>
+                </div>
+                <div>
+                    {/* <h3>American Thoroughbred</h3> */}
                     <div className="bgBox" style={{backgroundImage: `url(${img4})`}}></div>
                 </div>
             </a>
@@ -91,6 +108,8 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/campeones/">
                 <div>
                     <h3>Tennessee Walking Horse</h3>
+                </div>
+                <div>
                     <div className="bgBox" style={{backgroundImage: `url(${img3})`}}></div>
                 </div>
             </a>
@@ -101,6 +120,10 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/HoriseonWebsite/">
                 <div>
                     <h3>Nez Perce Horse</h3>
+                    <br></br>
+                </div>
+                <div>
+                    
                     <div className="bgBox" style={{backgroundImage: `url(${img2})`}}></div>
                 </div>
             </a>
@@ -111,6 +134,9 @@ export default function Portfolio ({setScreen}){
             <a href="https://josiesavill.github.io/space-weather-blog/">
                 <div>
                     <h3>Camarillo White Horse</h3>
+                </div>
+                <div>
+                    
                     <div className="bgBox" style={{backgroundImage: `url(${img5})`}}></div>
                 </div>
             </a>

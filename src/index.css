@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  display: flex;
+  flex: column;
+  text-align: center;
   
 }
 
@@ -183,6 +186,7 @@ main {
   padding-bottom: 20px;
   margin: 44px;
   margin-right: 44px;
+  text-align: center;
 }
 
 a {
@@ -191,9 +195,12 @@ a {
 }
 
 nav a:hover {
-  color: rgb(7, 19, 114);
-  transition: color 0.2s;
+  color: rgb(9, 21, 114);
+  /* transition: 0.2s; */
+  /* scale: 2.0; */
 }
+
+
 
 p {
   font-size: 20px;
@@ -344,7 +351,7 @@ p {
 .downloadresume:hover {
   /* color:rgb(161, 189, 84); */
   
-  scale: 1.09;
+  scale: 1.11;
 }
 
 .footer {
@@ -422,7 +429,7 @@ code {
 .bgBox{
   display: flex;
   flex: wrap;
-  flex-direction: row;
+  flex-direction: column;
   background-size: cover;
   background-position: center;
   width: 100%;
