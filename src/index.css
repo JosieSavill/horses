@@ -333,9 +333,34 @@ p {
 .portallink {
   text-align: center;
 }
+
+button {
+  background-color: seagreen;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: auto;
+  transition: 0.15s;
+  box-shadow: 2px 2px 10px black;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 0.5;
+}
 .profile-pic {
   
-  display: flex;
+  /* display: flex; */
   flex: wrap;
   
 }
@@ -393,8 +418,7 @@ p {
 .downloadresume {
   font-size: 20px;
   color: white;
-  margin-bottom: 0;
-  margin-left: 42px;
+  margin: 8px;
   transition: scale 0.17s;
   text-align: center;
 }

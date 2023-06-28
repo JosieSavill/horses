@@ -44,13 +44,13 @@ export default function About ({setScreen}){
                     </p>
 
                     <p>    
-                         ... click below to access the greatest horse stories ever written: 
+                         ... click below to access The Greatest Horse Stories Ever Told: 
 
                     </p>
                     
-                    <p className="portallink">
-                        <a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=pIg1kG" className="downloadresume"><h2 className="downloadresume" style={{ fontSize: '20px'}} >Equus Portal</h2></a> <br/>
-                    </p>
+                    <button className="portallink">
+                        <a href="https://archive.org/details/greatesthorsesto0000unse" className="downloadresume">Equus Portal</a>
+                    </button>
 
                     
                     
