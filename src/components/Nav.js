@@ -10,9 +10,9 @@ export default function Nav ({setScreen}){
         <nav>
        
         <ul>
-            <li className="homelink"><a onClick={()=>setScreen("Home")}>Home</a></li>
+            {/* <li className="homelink"><a onClick={()=>setScreen("Home")}>Home</a></li> */}
 
-            <li className="aboutlink"><a onClick={()=>setScreen("About")}>About</a></li>
+            <li className="aboutlink"><a onClick={()=>setScreen("About")}>Home</a></li>
 
       
 
