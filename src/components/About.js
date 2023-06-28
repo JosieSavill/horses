@@ -1,5 +1,5 @@
 import Nav from "./Nav";
-
+import stories from "../assets/horsestories.png";
 // import profile from "../assets/profile.jpg";
 import myVideo  from "../assets/awakening.mp4";
 import Footer from "./Footer";
@@ -18,9 +18,9 @@ export default function About ({setScreen}){
             </div>
         <aside className="aside-contact">
             
-            {/* <section className="aside-contact-links">
-                <img src={profile} className="profile-pic" alt="JosieSavill img"/>
-            </section> */}
+            <section className="aside-contact-links">
+                <img src={stories} className="profile-pic" alt="book cover img"/>
+            </section>
             
             <section id="about" className="aside-about">
                  <div>
@@ -35,10 +35,6 @@ export default function About ({setScreen}){
                     <br></br>
 
                     <p>    
-                        Our goal is to provide brief insights into the horse breeds originating in America.
-                    </p>    
-                    <br></br>  
-                    <p>    
                         Horses are the stuff of legends, <strong>Equus fers caballus</strong> 
 
                     </p>
@@ -49,7 +45,7 @@ export default function About ({setScreen}){
                     </p>
                     
                     <button className="portallink">
-                        <a href="https://archive.org/details/greatesthorsesto0000unse" className="downloadresume">Equus Portal</a>
+                        <a href="https://archive.org/details/greatesthorsesto0000unse/mode/2up?view=theater" className="downloadresume">Equus Portal</a>
                     </button>
 
                     
