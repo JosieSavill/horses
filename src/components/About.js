@@ -24,14 +24,14 @@ export default function About ({setScreen}){
                  <div>
                  
                     <p>
-                        Welcome to Horses In America !!
+                        <strong>Welcome!!</strong>
                     </p>
 
 
                     <br></br>
 
                     <p>    
-                        Horses are the stuff of legends, <strong>Equus fers caballus</strong> 
+                        Horses are the stuff of legends, 
 
                     </p>
 
