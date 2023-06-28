@@ -1,11 +1,9 @@
 import Nav from "./Nav";
 import stories from "../assets/horsestories.png";
-// import profile from "../assets/profile.jpg";
 import myVideo  from "../assets/awakening.mp4";
 import Footer from "./Footer";
-// import linkLogo from "../assets/linkedin-logo.png";
-// import githubLogo from "../assets/github-logo.jpg";
-// import stackLogo from "../assets/stack-exchange-logo-transparent.png";
+import archiveLogo from "../assets/transparentarchivelogo.png";
+
 
 export default function About ({setScreen}){
     return <div>
@@ -24,14 +22,12 @@ export default function About ({setScreen}){
             
             <section id="about" className="aside-about">
                  <div>
-                    {/* <h2 style={{ fontSize: '1.7rem', color: "white"}}>About:</h2> */}
-                    {/* <p>
-                        All of my designs are centered on user perspectives.
-                    </p>    */}
-                    {/* <br></br>   */}
+                 
                     <p>
-                        Welcome to Horses In America !!{/* <a href="mailto:FiordaSavillJosie@gmail.com" className="email">FiordaSavillJosie@gmail.com</a>  */}
+                        Welcome to Horses In America !!
                     </p>
+
+
                     <br></br>
 
                     <p>    
@@ -45,7 +41,7 @@ export default function About ({setScreen}){
                     </p>
                     
                     <button className="portallink">
-                        <a href="https://archive.org/details/greatesthorsesto0000unse/mode/2up?view=theater" className="downloadresume">Equus Portal</a>
+                        <a href="https://archive.org/details/greatesthorsesto0000unse/mode/2up?view=theater" className="downloadresume"><img src={archiveLogo} style={{width: "20px", height: "20px"}} alt="logo img"/> Internet Archive</a>
                     </button>
 
                     
