@@ -44,6 +44,8 @@ export default function About ({setScreen}){
                         <a href="https://archive.org/details/greatesthorsesto0000unse/mode/2up?view=theater" className="downloadresume"><img src={archiveLogo} style={{width: "20px", height: "20px"}} alt="logo img"/> Internet Archive</a>
                     </button>
 
+                    {/* <iframe src="https://archive.org/embed/greatesthorsesto0000unse" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe> */}
+
                     
                     
                     
