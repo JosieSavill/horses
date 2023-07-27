@@ -1,12 +1,12 @@
 import Nav from "./Nav";
 import Footer from "./Footer";
-import img1 from "../assets/BeagzCal.jpg";
-import img2 from "../assets/Horiseon.jpg";
-import img3 from "../assets/campeones.jpg";
-import img4 from "../assets/gem.jpg";
-import img5  from "../assets/pleiades.jpg";
-import img6 from "../assets/awakening500.png";
-import img7 from "../assets/ShareMealDesktop.png";
+import img1 from "../assets/morganhorse.jpg";
+// import img2 from "../assets/Horiseon.jpg";
+import img3 from "../assets/tennesseewalker.jpg";
+import img4 from "../assets/thoroughbred.jpg";
+import img5  from "../assets/quarterhorse.jpg";
+import img6 from "../assets/Am_Paint_Horse.jpg";
+import img7 from "../assets/appaloosa.jpg";
 
 // import profile from "../assets/profile.jpg";
 
@@ -36,7 +36,7 @@ export default function Portfolio ({setScreen}){
      <section id="work" className="portfolio">
 
         <div id="horeison" className="work-horeison">
-            <a href="https://josiesavill.github.io/horses/">
+            <a href="https://en.wikipedia.org/wiki/American_Paint_Horse">
                 <div>
                 <h3>American Paint Horse</h3>
                 </div>
@@ -50,7 +50,7 @@ export default function Portfolio ({setScreen}){
         </div>
 
         <div id="horeison" className="work-horeison">
-            <a href="https://sharemeal.herokuapp.com/">
+            <a href="https://en.m.wikipedia.org/wiki/Appaloosa">
                 <div>
                     <h3>Appaloosa</h3>
                     <br></br>
@@ -64,7 +64,7 @@ export default function Portfolio ({setScreen}){
         </div>
 
         <div id="horeison" className="work-horeison">
-            <a href="https://josiesavill.github.io/space-weather-blog/">
+            <a href="https://en.m.wikipedia.org/wiki/American_Quarter_Horse">
                 <div>
                     <h3>American Quarter Horse</h3>
                 </div>
@@ -77,7 +77,7 @@ export default function Portfolio ({setScreen}){
         </div>
 
         <div id="horeison" className="work-horeison">
-            <a href="https://josiesavill.github.io/beagzcal/">
+            <a href="https://en.m.wikipedia.org/wiki/Morgan_horse">
                 <div>
                     <h3>Morgan Horse</h3>
                     <br></br>
@@ -91,7 +91,7 @@ export default function Portfolio ({setScreen}){
         </div>
 
         <div id="horeison" className="work-horeison">
-            <a href="https://josiesavill.github.io/gem/">
+            <a href="https://en.m.wikipedia.org/wiki/Thoroughbred">
                 <div>
                     <h3>American Thoroughbred</h3>
                 </div>
@@ -105,7 +105,7 @@ export default function Portfolio ({setScreen}){
 
 
         <div id="horeison" className="work-horeison">
-            <a href="https://josiesavill.github.io/campeones/">
+            <a href="https://en.m.wikipedia.org/wiki/Tennessee_Walking_Horse">
                 <div>
                     <h3>Tennessee Walking Horse</h3>
                 </div>
@@ -116,32 +116,8 @@ export default function Portfolio ({setScreen}){
             {/* <a href="https://github.com/JosieSavill/campeones" style={{ fontSize: "20px" }}>View Repository</a> */}
         </div>
 
-        <div id="horeison" className="work-horeison">
-            <a href="https://josiesavill.github.io/HoriseonWebsite/">
-                <div>
-                    <h3>Nez Perce Horse</h3>
-                    <br></br>
-                </div>
-                <div>
-                    
-                    <div className="bgBox" style={{backgroundImage: `url(${img2})`}}></div>
-                </div>
-            </a>
-            {/* <a href="https://github.com/JosieSavill/HoriseonWebsite" style={{ fontSize: "20px" }}>View Repository</a> */}
-        </div>
 
-        <div id="horeison" className="work-horeison">
-            <a href="https://josiesavill.github.io/space-weather-blog/">
-                <div>
-                    <h3>Camarillo White Horse</h3>
-                </div>
-                <div>
-                    
-                    <div className="bgBox" style={{backgroundImage: `url(${img5})`}}></div>
-                </div>
-            </a>
-            {/* <a href="https://github.com/JosieSavill/space-weather-blog" style={{ fontSize: "20px" }}>View Repository</a> */}
-        </div>
+       
 
         
         
