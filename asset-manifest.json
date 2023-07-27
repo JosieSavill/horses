@@ -1,28 +1,27 @@
 {
   "files": {
     "main.css": "/horses/static/css/main.250bd943.css",
-    "main.js": "/horses/static/js/main.37770dbf.js",
-    "static/js/787.ba23cd0a.chunk.js": "/horses/static/js/787.ba23cd0a.chunk.js",
+    "main.js": "/horses/static/js/main.24afe3c7.js",
+    "static/js/787.c720d2c1.chunk.js": "/horses/static/js/787.c720d2c1.chunk.js",
     "static/media/awakening.mp4": "/horses/static/media/awakening.f82b35cde2607e3c9aba.mp4",
-    "static/media/Horiseon.jpg": "/horses/static/media/Horiseon.f4a5275ec18a6debc47f.jpg",
-    "static/media/gem.jpg": "/horses/static/media/gem.3b31a192db4a26efc816.jpg",
-    "static/media/BeagzCal.jpg": "/horses/static/media/BeagzCal.8e34d7edaa5d2fbd99ac.jpg",
     "static/media/horsestories.png": "/horses/static/media/horsestories.5c7526f1a66ad96c1851.png",
-    "static/media/ShareMealDesktop.png": "/horses/static/media/ShareMealDesktop.94ab8b6a474161da99f1.png",
-    "static/media/awakening500.png": "/horses/static/media/awakening500.9d6a0c48c1c7fedcd0cd.png",
-    "static/media/pleiades.jpg": "/horses/static/media/pleiades.08e7cf71394d261ac2a6.jpg",
-    "static/media/campeones.jpg": "/horses/static/media/campeones.9f48974db9bdb355253a.jpg",
     "static/media/github-logo.jpg": "/horses/static/media/github-logo.a9654661dfa08223d7a2.jpg",
+    "static/media/Am_Paint_Horse.jpg": "/horses/static/media/Am_Paint_Horse.1be49768ff54b2011c34.jpg",
+    "static/media/appaloosa.jpg": "/horses/static/media/appaloosa.8d73e559ec09036724b9.jpg",
+    "static/media/tennesseewalker.jpg": "/horses/static/media/tennesseewalker.9cedec6e3e209dbd68ca.jpg",
+    "static/media/quarterhorse.jpg": "/horses/static/media/quarterhorse.aecd57ccf896f26e7028.jpg",
+    "static/media/morganhorse.jpg": "/horses/static/media/morganhorse.afa4477eb0df066a19ce.jpg",
+    "static/media/thoroughbred.jpg": "/horses/static/media/thoroughbred.b82ee316d720f147ba43.jpg",
     "static/media/linkedin-logo.png": "/horses/static/media/linkedin-logo.cdabfc48c78b5cac6649.png",
     "static/media/stack-exchange-logo-transparent.png": "/horses/static/media/stack-exchange-logo-transparent.78d616f55b6be13b1d7d.png",
     "static/media/transparentarchivelogo.png": "/horses/static/media/transparentarchivelogo.ae71aadbb5f58780406c.png",
     "index.html": "/horses/index.html",
     "main.250bd943.css.map": "/horses/static/css/main.250bd943.css.map",
-    "main.37770dbf.js.map": "/horses/static/js/main.37770dbf.js.map",
-    "787.ba23cd0a.chunk.js.map": "/horses/static/js/787.ba23cd0a.chunk.js.map"
+    "main.24afe3c7.js.map": "/horses/static/js/main.24afe3c7.js.map",
+    "787.c720d2c1.chunk.js.map": "/horses/static/js/787.c720d2c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.250bd943.css",
-    "static/js/main.37770dbf.js"
+    "static/js/main.24afe3c7.js"
   ]
 }
