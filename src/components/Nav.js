@@ -6,7 +6,7 @@ export default function Nav ({setScreen}){
     return <header className="header">
          <div className="logo">HORSES{' '}
          <span style={{ fontSize: '1.4rem', fontStyle: 'italic', color: "white"}}>
-            In America</span></div>
+            America</span></div>
         <nav>
        
         <ul>
